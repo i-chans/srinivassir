@@ -23,9 +23,9 @@ void output(int b,int c)
 
 int main()
 {
-    //int x=get_input();
-    //int y=add_one();
-    add_one(get_input());
-    output(get_input(),add_one(a));
+    int x=get_input();
+    int y=add_one(x);
+    add_one(x);
+    output(x,y);
     
 }
